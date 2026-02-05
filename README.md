@@ -21,20 +21,24 @@ Through the correlation of CISA threat data and CWE root causes, the following i
 * [CWE_Root_Cause_Analysis.ipynb](https://github.com/AgentZero11/GRC-CISA-KEV-Risk-Analysis/blob/main/GRC_Strategy(CWE_Analysis).ipynb): The primary Python notebook containing the ETL pipeline and SQL analysis.
 * [Enterprise_Secure_Software_Policy.md](https://github.com/AgentZero11/GRC-CISA-KEV-Risk-Analysis/blob/main/Enterprise_Secure_Software_Policy.md): A formal GRC policy drafted based on the data findings, mapping CWEs to regulatory controls.
 * [CISO_Summary.md](https://github.com/AgentZero11/GRC-CISA-KEV-Risk-Analysis/blob/main/CISO_Summary.md): An executive-level briefing translated for non-technical leadership.
-* requirements.txt: List of dependencies required to reproduce the environment.
+* [requirements.txt](https://github.com/AgentZero11/GRC-CISA-KEV-Risk-Analysis/blob/main/requirements.txt): List of dependencies required to reproduce the environment.
 
 ## How to Run
 * Clone the Repository:
 
+```
   git clone https://github.com/AgentZero11/GRC-CISA-KEV-Risk-Analysis.git
 
   cd GRC-CISA-KEV-Risk-Analysis
+```
 
 * Install Dependencies:
 
+```
   pip install -r requirements.txt
+```
   
-* Execute the Analysis: Open the .ipynb file in Jupyter Lab or VS Code and run all cells to regenerate the database joins and visualizations.
+* Execute the Analysis: Open the ```.ipynb``` file in Jupyter Lab or VS Code and run all cells to regenerate the database joins and visualizations.
 
 ## Author
 Jah Tyler
